@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background: #111;
+  color: white;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu a:hover {
+  color: #00d4ff;
+}
+
+.cart {
+  background: white;
+  color: black;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+/* HOME */
+
+.home {
+  text-align: center;
+  padding: 100px 20px;
+  min-height: 500px;
+}
+
+.home h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* BUTTON */
+
+button {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #333;
+}
+
+/* PRODUCTS */
+
+.title {
+  text-align: center;
+  margin: 50px 0 30px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  min-height: 450px;
+}
+
+/* PRODUCT CARD */
+
+.card {
+  background: white;
+  width: 250px;
+  padding: 25px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px #ccc;
+}
+
+.product-image {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #666;
+}
+
+.card h3 {
+  margin: 15px;
+}
+
+/* OTHER PAGES */
+
+.page {
+  min-height: 500px;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.page p {
+  margin-top: 20px;
+}
+
+/* CONTACT FORM */
+
+form {
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* FOOTER */
+
+.footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
